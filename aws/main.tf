@@ -1,11 +1,4 @@
 terraform {
-  backend "remote" {
-    organization = "terraform-omkar"
-
-    workspaces {
-      name = "myworkspace"
-    }
-  }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
