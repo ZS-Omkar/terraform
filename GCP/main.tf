@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("C:/Users/omkar/Downloads")
+  credentials = file("C:/Users/omkar/Downloads/terraform-328410-1a0e1f3306cc.json")
 
   project = "terraform-328410"
   region  = "us-central1"
@@ -16,5 +16,5 @@ provider "google" {
 }
 
 resource "google_compute_network" "vpc_network" {
-  name = "terraform-network"
+  name = "default"
 }
