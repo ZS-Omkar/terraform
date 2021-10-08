@@ -17,4 +17,5 @@ provider "google" {
 
 resource "google_compute_network" "vpc_network" {
   name = "terraform"
+  machine_type = "f1-micro"
 }
