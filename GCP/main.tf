@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("C:/Users/omkar/Downloads/terraform-328410-1a0e1f3306cc")
+  credentials = file("C:/Users/omkar/Downloads")
 
   project = "terraform-328410"
   region  = "us-central1"
