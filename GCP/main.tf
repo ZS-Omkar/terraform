@@ -15,7 +15,7 @@ provider "google" {
   zone    = "us-central1-c"
 }
 
-resource "google_compute_instance" "vm_instance" {
+resource "google_compute_instance" "vpc_network" {
   name         = "terraform"
   machine_type = "f1-micro"
 
