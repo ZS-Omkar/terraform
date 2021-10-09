@@ -19,10 +19,10 @@ resource "aws_instance" "app_server" {
   instance_type = "t2.micro"
   count = var.instance_count
   tags = {
-    Name = "terra-${count.index + 1}"
+    Name = "terra-myinstance"
   }
 }
 variable "instance_count" {
-  default = "2"
+  default = "1"
 }
 
